@@ -480,8 +480,10 @@
           <div class="ch">
             <div class="ch-num">02</div>
             <div>
-              <div class="ch-title">인프라 구축</div>
+              <div class="ch-title">인프라 구축</div>            
               <div class="ch-line"><span class="tag tag-s">구축</span><span>Master 1 + Worker 7 온프레미스 Kubernetes 클러스터 직접 구축</span></div>
+              <div class="ch-line"><span class="tag tag-p">문제</span><span>AWS 콘솔 기반 수동 구성으로 로컬 설정 재현 시 설정 누락·오타로 배포 실패</span></div>
+              <div class="ch-line"><span class="tag tag-s">개선</span><span>Terraform으로 EKS/Fargate 인프라 코드화, deploy.sh로 원커맨드 배포 자동화</span></div>
               <div class="ch-line"><span class="tag tag-r">성과</span><span>Jenkins CI/CD 기반 Blue/Green 무중단 배포 자동화</span></div>
             </div>
           </div>
